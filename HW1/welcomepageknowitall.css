@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 60;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #0073e6;
+    background: url('Picture5.jpg') center center/cover; /* Add the path to your background image */
+    color: black;
+    padding: 100px;
+}
+
+header img {
+    max-width: 220px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px; 
+}
+
+.services {
+    text-align: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.service {
+    text-align: center;
+    width: calc(30% - 20px); 
+    margin: 10px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px black ;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.services h2 {
+    width: 100%; /* Make sure it takes full width */
+}
+
+.service h3 {
+    font-size: 25px;
+    margin: 100px 0 10px; /* Adjust the top margin value */
+}
+
+.user-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px; 
+}

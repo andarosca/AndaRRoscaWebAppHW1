@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="adminsignin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome TUTOR (Admin)</h1>
+        
+        <form action="admin_main_page.html" method="post">
+            <label for="adminUsername">Username:</label>
+            <input type="text" id="adminUsername" name="adminUsername" required>
+
+            <label for="adminPassword">Password:</label>
+            <input type="password" id="adminPassword" name="adminPassword" required>
+
+            <div class="button-container">
+                <button type="submit">Log In</button>
+            </div>
+        </form>
+
+        <p>If you want to become an admin tutor and do not have a account already, then please, <br> <a href="admin_signup.html">sign up here</a>.</p>
+
+        <label for="agree-terms">
+            <input type="checkbox" id="agree-terms" name="agree-terms" required>
+            <div>
+                I have read and agree to the
+                <a href="t&a.html">Terms and Conditions</a>
+            </div>
+        </label>
+        <div class="terms-and-conditions">
+            <p>By SIGNING IN or SIGNING UP, you are always agreeing to our: <a href="t&a.html">Terms and Conditions</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
