@@ -1,20 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: white;
     margin: 60;
     padding: 0;
 }
 
 header {
     text-align: center;
-    background-color: #0073e6;
-    background: url('Picture5.jpg') center center/cover; /* Add the path to your background image */
+    background-color: blue;
+    background: url('Picture5.jpg') center center/cover; /
     color: black;
     padding: 100px;
 }
 
 header img {
-    max-width: 220px; /* Adjust the size of the logo */
+    max-width: 220px; 
     height: auto;
 }
 
@@ -63,21 +63,21 @@ header h1 {
     background-color: white;
     margin: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px black;
 }
 
 .contact a {
-    color: #0073e6;
+    color: blue;
     text-decoration: none;
 }
 
 .services h2 {
-    width: 100%; /* Make sure it takes full width */
+    width: 100%; 
 }
 
 .service h3 {
     font-size: 25px;
-    margin: 100px 0 10px; /* Adjust the top margin value */
+    margin: 100px 0 10px; 
 }
 
 .user-button {
