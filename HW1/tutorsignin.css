@@ -11,7 +11,7 @@ body {
     background-color: lightgreen;
     padding: 50px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px black;
 }
 
 header {
@@ -65,13 +65,13 @@ input {
     width: 60%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 4px;
 }
 
 button {
-    background-color: #0073e6;
-    color: #fff;
+    background-color: blue;
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -80,7 +80,7 @@ button {
 }
 
 .button-container button:hover {
-    background-color: #005bb7;
+    background-color: blue;
 }
 
 .button-container{
