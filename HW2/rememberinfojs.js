@@ -1,6 +1,4 @@
-<!-- signup.html -->
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <title>Sign Up</title>
     <link rel="stylesheet" href="signupinfopage.css">
@@ -59,10 +57,6 @@
             const description = document.getElementById('description').value;
             const role = document.getElementById('role').value;
 
-            // Do something with the user data (e.g., store it locally)
-            // ...
-
-            // Redirect to profile.html or any other page after signup
             window.location.href = 'myprofile.html';
         }
     </script>
