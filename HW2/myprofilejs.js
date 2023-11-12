@@ -1,6 +1,4 @@
-// myprofilejs.js
 
-// Function to toggle between view mode and edit mode
 function toggleEditMode() {
     const profileInfo = document.querySelector('.profile-info');
     const editInfo = document.querySelector('.edit-info');
@@ -20,7 +18,6 @@ function toggleEditMode() {
     }
 }
 
-// Function to load user data into edit fields
 function loadUserData() {
     const userData = getUserInformation();
 
@@ -30,7 +27,6 @@ function loadUserData() {
     document.getElementById('editDescription').value = userData.description || '';
 }
 
-// Function to save changes made in edit mode
 function saveChanges() {
     const editedData = {
         subject: document.getElementById('editSubject').value,
@@ -41,11 +37,9 @@ function saveChanges() {
 
     saveEditedUserData(editedData);
 
-    // Switch back to view mode
     toggleEditMode();
 }
 
-// Replace this function with the actual function to retrieve user data from local storage
 function getUserInformation() {
     const userInfoString = localStorage.getItem('userInfo');
     if (userInfoString) {
@@ -55,7 +49,6 @@ function getUserInformation() {
     }
 }
 
-// Replace this function with the actual function to save edited user data
 function saveEditedUserData(editedData) {
     const userInfo = getUserInformation();
     Object.assign(userInfo, editedData);
